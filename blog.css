@@ -1,0 +1,38 @@
+body{
+	max-width: 800px;
+	width: 80%;
+	margin: 20px auto;
+	color: red;
+	background: white;
+	border: #bdc3c7 15px solid;
+	font-family: source sans pro;
+}
+
+h4{
+text-transform: uppercase;
+letter-spacing:3px;
+word-spacing:3px;
+color: #3498db;
+margin: 3%;
+}
+
+h1{
+	color: #2c3e50;
+	margin: 3%;
+	font-size: 35px;
+}
+
+p{
+color:black;
+margin: 3%;
+}
+
+h1 + p{
+	border-left:#bdc3c7 6px solid;
+	padding-left: 10px;
+}
+
+hr{
+	border: .5px #bdc3c7 solid;
+	margin: 3%;
+}
